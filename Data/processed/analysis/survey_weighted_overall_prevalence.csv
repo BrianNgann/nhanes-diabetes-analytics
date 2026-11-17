@@ -1,0 +1,4 @@
+"dimension","estimate_type","weight_variable","category","estimate","ci_lower","ci_upper","standard_error","unweighted_n","unweighted_cases"
+"Diabetes status","Survey-weighted","WTPH2YR","Normal",65.3,62.11,68.34,1.46,5767,3468
+"Diabetes status","Survey-weighted","WTPH2YR","Prediabetes",24.25,21.91,26.77,1.14,5767,1578
+"Diabetes status","Survey-weighted","WTPH2YR","Diabetes",10.45,9.21,11.84,0.61,5767,721

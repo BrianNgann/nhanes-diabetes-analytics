@@ -1,0 +1,2 @@
+"cycle","weight","strata","psu","nest","lonely_psu_handling","analytic_n","positive_weight_n","strata_count","design_degrees_freedom","regression_inference","cycles_combined","multi_cycle_weight_needed"
+"NHANES August 2021-August 2023","WTPH2YR","SDMVSTRA","SDMVPSU",TRUE,"survey.lonely.psu='adjust'; survey.adjust.domain.lonely=TRUE",5767,5767,15,15,"Coefficient t tests and 95% CIs use 15 design degrees of freedom",1,FALSE

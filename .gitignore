@@ -1,0 +1,7 @@
+.DS_Store
+.Rhistory
+.Rproj.user/
+Medical_SQL_Project_files/
+Data/database/
+Data/processed/nhanes_diabetes_analysis.csv
+Data/processed/analysis/*.rds

@@ -1,0 +1,10 @@
+"age_group","bmi_category","participants","diabetes_percent","prediabetes_percent","elevated_percent"
+"20-39","Normal",425,0.5,4.9,5.4
+"20-39","Obese",535,6.2,16.6,22.8
+"20-39","Overweight",450,1.1,10.9,12
+"40-59","Normal",382,5.2,17.8,23
+"40-59","Obese",758,19.3,34.8,54.1
+"40-59","Overweight",488,8.8,23,31.8
+"60+","Normal",627,9.1,30.6,39.7
+"60+","Obese",1040,26.3,39.1,65.4
+"60+","Overweight",911,13.6,38,51.6

@@ -1,0 +1,10 @@
+"diabetes_status","diabetes_self_report","participants","percent_within_hba1c_status"
+"Diabetes","Borderline",36,5
+"Diabetes","No",116,16.1
+"Diabetes","Yes",569,78.9
+"Normal","Borderline",59,1.7
+"Normal","No",3344,96.4
+"Normal","Yes",65,1.9
+"Prediabetes","Borderline",118,7.5
+"Prediabetes","No",1275,80.8
+"Prediabetes","Yes",185,11.7

@@ -1,0 +1,11 @@
+# Publish the validated source of truth to a lightweight relational reporting layer.
+suppressPackageStartupMessages({library(DBI); library(RSQLite)})
+if (!exists("analysis_data", inherits = FALSE)) source(file.path("R", "v2", "01_prepare_analysis_data.R"))
+source(file.path("R", "v2", "02_validate_analysis_data.R"))
+dir.create(file.path("Data", "database"), recursive = TRUE, showWarnings = FALSE)
+database_path <- file.path("Data", "database", "nhanes_diabetes.sqlite")
+con <- dbConnect(SQLite(), database_path)
+dbWriteTable(con, "nhanes_diabetes", analysis_data, overwrite = TRUE)
+dbExecute(con, "CREATE UNIQUE INDEX IF NOT EXISTS idx_nhanes_seqn ON nhanes_diabetes(SEQN)")
+dbDisconnect(con)
+message("Published validated participant table to SQLite.")

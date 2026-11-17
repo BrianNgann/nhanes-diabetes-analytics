@@ -1,0 +1,4 @@
+"diabetes_status","survey_weighted_percent","survey_ci_lower","survey_ci_upper","unweighted_n","unweighted_percent","percentage_point_difference"
+"Normal",65.3,62.11,68.34,3468,60.14,5.16
+"Prediabetes",24.25,21.91,26.77,1578,27.36,-3.11
+"Diabetes",10.45,9.21,11.84,721,12.5,-2.05

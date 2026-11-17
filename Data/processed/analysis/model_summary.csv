@@ -1,0 +1,2 @@
+"model","analytic_sample_n","complete_case_n","excluded_for_missingness_n","diabetes_events","pseudo_r_squared_mcfadden","weighting","inference_scope"
+"Primary unweighted binary logistic regression: HbA1c diabetes vs not diabetes",5767,4783,984,587,0.156,"Unweighted","Analytic-sample associations; not causal or nationally representative"
